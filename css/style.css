@@ -1,0 +1,173 @@
+/* General CSS */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+.col-6{
+    width:50%;
+}
+.py-60{
+    padding: 60px 0px;
+}
+.text-white{
+    color: white;
+}
+.text-center{
+    text-align: center;
+}
+
+/* Header or Navigation CSS */
+header.bg-sky-blue{
+    background: blue;
+    
+} 
+header.bg-sky-blue:hover .banner img{
+    transform: rotate(20deg);
+    transition: 1s; 
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+.navbar-nav{
+    display: flex;
+    max-width: 80%;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 15px;
+}
+nav ul li a{
+    display: flex;
+    padding: 15px 5px;
+    font-size: 18px;
+    color: #ffffff;
+}
+.register-area a{
+    color: #ffffff;
+    font-size: 18px;
+}
+
+/* Banner CSS */
+.banner{
+    display: flex;
+    padding: 120px 0px;
+    color: #fff;
+    align-items: center;
+}
+.banner .content{
+    padding-right: 25%;
+}
+.banner .content h2{
+    font-size: 64px;
+    font-weight: 600;
+}
+.banner .content a{
+    color: #ffffff;
+    font-size: 18px;
+}
+.btn-pink{
+    display: inline-flex;
+    padding: 10px 30px;
+    background: palevioletred;
+}
+.content a.btn-pink{
+    margin-top: 20px;
+}
+
+.banner img,.match img{
+    max-width: 90% ;
+    display: flex;
+    margin: 0px auto;
+    transition: 1s;
+
+}
+
+/* Player Section */
+.player{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    background-color: #edebeb;
+    padding: 20px;
+}
+.player .grid{
+  background-color: white;
+  text-align: center;
+  box-shadow: 5px 5px 5px 5px #e3dede ; 
+}
+.card-body{
+    text-align: left;
+    padding: 15px;
+}
+.card img{
+    width:90%;
+    margin-top: 15px;
+}
+
+/* Highlight Section CSS */
+.match{
+    display: flex;
+    align-items: center;
+}
+.match .content{
+    padding-right: 17%;
+}
+.match .content h2{
+    font-size: 48px;
+    font-weight: 600;
+}
+.fa.fa-arrow-right{
+    margin-top: 5px;
+    margin-right: 15px;
+}
+.banner .fa.fa-arrow-right,
+.content .fa.fa-arrow-right{
+    margin-top: 5px;
+    margin-left: 15px;
+}
+/* Footer CSS */
+.footer-logo{
+    display: block;
+    text-align: center;
+}
+.footer-logo img{
+    max-width: 30%;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+}
+.social-icon .fa{
+    padding: 8px;
+    color: gray;
+    background:#dbd4d4;
+    margin: 5px;
+    border-radius: 50%;
+}
+.footer-text{
+    margin-top: 15px;
+}
